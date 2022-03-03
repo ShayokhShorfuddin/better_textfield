@@ -1,6 +1,7 @@
 # better_textfield
 
 A flutter package for easy size control over textfields.
+
 Generally, if you needed to control the size of textfield widget, there is no "straightforward" way. In order to do so, you have to -
 
 
