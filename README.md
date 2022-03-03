@@ -18,8 +18,6 @@ Generally, if you needed to control the size of textfield widget, there is no "s
 
 ## Usage
 
-coming soon
-
 To use this package :
 
 * add the dependency to your `pubspec.yaml` file.
@@ -33,7 +31,44 @@ To use this package :
 
 ### How to use
 
-coming soon
+Here is an example code for you and the output is on the screenshot :)
+
+```BetterTextfield(
+              width: 900,
+              height: 68,
+              cursorColor: Colors.white,
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 23,
+                  fontWeight: FontWeight.w400),
+              decoration: InputDecoration(
+                  prefixIcon: Padding(
+                    padding: EdgeInsets.fromLTRB(30, 0, 12, 0),
+                    child: Icon(
+                      Icons.search,
+                      color: Colors.grey,
+                      size: 23,
+                    ),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(40.0)),
+                    borderSide: BorderSide(
+                      color: Color(0xFF35404D),
+                    ),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(40.0)),
+                    borderSide: BorderSide(color: Color(0xFF35404D)),
+                  ),
+                  filled: true,
+                  isDense: true,
+                  fillColor: Color(0xFF35404D),
+                  hintText: "Search here...",
+                  hintStyle: TextStyle(color: Colors.grey[600])),
+              onTap: () {
+                print("I was tapped!");
+              },
+            ),```
 
 # License
 MIT License
