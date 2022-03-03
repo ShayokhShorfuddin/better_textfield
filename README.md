@@ -34,8 +34,8 @@ To use this package :
 Here is an example code for you and the output is on the screenshot :)
 
 ```BetterTextfield(
-              width: 900,
-              height: 68,
+      width: 900,
+      height: 68,
               cursorColor: Colors.white,
               style: TextStyle(
                   color: Colors.white,
