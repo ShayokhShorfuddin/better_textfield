@@ -18,7 +18,7 @@ To use this package :
   dependencies:
     flutter:
       sdk: flutter
-    social_signin_buttons:
+    better_textfield:
 ```
 
 ### How to use
