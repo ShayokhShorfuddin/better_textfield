@@ -68,7 +68,9 @@ Here is an example code for you and the output is on the screenshot :)
               onTap: () {
                 print("I was tapped!");
               },
-            ),```
+            ),
+```
+
 
 # License
 MIT License
