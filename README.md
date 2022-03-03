@@ -33,7 +33,8 @@ To use this package :
 
 Here is an example code for you and the output is on the screenshot :)
 
-```BetterTextfield(
+```
+BetterTextfield(
       width: 900,
       height: 68,
       style: TextStyle(
@@ -54,10 +55,6 @@ Here is an example code for you and the output is on the screenshot :)
                     borderSide: BorderSide(
                       color: Color(0xFF35404D),
                     ),
-                  ),
-                  focusedBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.all(Radius.circular(40.0)),
-                    borderSide: BorderSide(color: Color(0xFF35404D)),
                   ),
                   filled: true,
                   isDense: true,
