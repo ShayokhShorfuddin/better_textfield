@@ -39,15 +39,15 @@ BetterTextfield(
       height: 68,
       style: TextStyle(
           color: Colors.white,
-           fontSize: 23,
-                  fontWeight: FontWeight.w400),
-              decoration: InputDecoration(
-                  prefixIcon: Padding(
-                    padding: EdgeInsets.fromLTRB(30, 0, 12, 0),
-                    child: Icon(
-                      Icons.search,
-                      color: Colors.grey,
-                      size: 23,
+          fontSize: 23,
+          fontWeight: FontWeight.w400),
+          decoration: InputDecoration(
+             prefixIcon: Padding(
+               padding: EdgeInsets.fromLTRB(30, 0, 12, 0),
+                child: Icon(
+                   Icons.search,
+                   color: Colors.grey,
+                   size: 23,
                     ),
                   ),
                   enabledBorder: OutlineInputBorder(
@@ -63,6 +63,7 @@ BetterTextfield(
                   hintStyle: TextStyle(color: Colors.grey[600])),
             ),
 ```
+Control the size however you want to as well as decorate textfields like the regular textfields.
 
 
 # License
