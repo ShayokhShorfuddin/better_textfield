@@ -36,10 +36,9 @@ Here is an example code for you and the output is on the screenshot :)
 ```BetterTextfield(
       width: 900,
       height: 68,
-              cursorColor: Colors.white,
-              style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 23,
+      style: TextStyle(
+          color: Colors.white,
+           fontSize: 23,
                   fontWeight: FontWeight.w400),
               decoration: InputDecoration(
                   prefixIcon: Padding(
@@ -65,9 +64,6 @@ Here is an example code for you and the output is on the screenshot :)
                   fillColor: Color(0xFF35404D),
                   hintText: "Search here...",
                   hintStyle: TextStyle(color: Colors.grey[600])),
-              onTap: () {
-                print("I was tapped!");
-              },
             ),
 ```
 
