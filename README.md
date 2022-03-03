@@ -1,4 +1,4 @@
-# social_signin_buttons
+# better-textfield
 
 A flutter package for easy size control over textfields.
 
