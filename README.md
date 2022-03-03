@@ -1,6 +1,13 @@
 # better_textfield
 
 A flutter package for easy size control over textfields.
+Generally, if you needed to control the size of textfield widget, there is no "straightforward" way. In order to do so, you have to -
+
+* Wrap it with a SizedBox or Container widget with the size you want to apply on your textfield.
+* Set ```expands: true``` so that your textfield expands itself to the size of its parent widget.
+* Also set ``` maxLines: null``` otherwise it causes an error.
+
+`better_container` helps you with this issue and gives direct control on textfields size. In short, its the regular textfield widget but "better"!
 
 ## Screenshots
 
