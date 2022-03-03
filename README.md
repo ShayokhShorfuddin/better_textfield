@@ -4,7 +4,7 @@ A flutter package for easy size control over textfields.
 
 ## Screenshots
 
-coming soon
+<img src="https://raw.githubusercontent.com/ShayokhShorfuddin/better_textfield/master/example.png" />
 
 ## Usage
 
