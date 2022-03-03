@@ -1,4 +1,4 @@
-# better-textfield
+# better_textfield
 
 A flutter package for easy size control over textfields.
 
