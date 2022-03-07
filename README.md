@@ -33,7 +33,7 @@ To use this package :
 
 Here is an example code for you and the output is on the screenshot :)
 
-```
+```dart
 BetterTextfield(
       width: 900,
       height: 68,
